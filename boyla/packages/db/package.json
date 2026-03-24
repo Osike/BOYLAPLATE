@@ -1,0 +1,23 @@
+{
+  "name": "@boyla/db",
+  "type": "module",
+  "exports": {
+    ".": {
+      "default": "./src/index.ts"
+    },
+    "./*": {
+      "default": "./src/*.ts"
+    }
+  },
+  "scripts": {},
+  "dependencies": {
+    "@boyla/env": "workspace:*",
+    "dotenv": "catalog:",
+    "mongoose": "^8.14.0",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@boyla/config": "workspace:*",
+    "typescript": "catalog:"
+  }
+}
